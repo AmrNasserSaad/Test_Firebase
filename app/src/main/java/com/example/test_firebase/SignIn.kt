@@ -32,7 +32,6 @@ class SignIn : AppCompatActivity() {
                     if (task.isSuccessful) {
 
                         val user = auth.currentUser
-
                         val intent = Intent(this, Home::class.java)
                         startActivity(intent)
 

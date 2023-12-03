@@ -70,4 +70,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.98" />
 
+
+    <Button
+        android:id="@+id/btn_google_sign_in"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:drawableLeft="@drawable/fui_ic_googleg_color_24dp"
+        android:padding="16dp"
+        android:text="Sign In With Google"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

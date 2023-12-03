@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.Test_Firebase" parent="Base.Theme.Test_Firebase" />
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+    </style>
 </resources>
